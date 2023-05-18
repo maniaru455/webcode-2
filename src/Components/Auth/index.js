@@ -17,7 +17,7 @@ function Index() {
 
     const handleSignINGoogle = () => {
         signInWithPopup(auth, provider).then((res) => {
-            navigate.push("/");
+
             console.log(res);
         })
     }
