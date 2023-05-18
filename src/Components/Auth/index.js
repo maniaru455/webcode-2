@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./index.css";
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
 import { auth, provider } from "../../firebase";
-import { Link, useNavigate } from "react-router-dom";
+
 
 
 function Index() {
